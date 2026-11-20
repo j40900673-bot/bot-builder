@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "schematic_builder_bot",
+  "version": "${version}",
+  "name": "Schematic Builder Bot",
+  "description": "A client-side schematic planning interface for Minecraft 1.21.11.",
+  "authors": ["Codex"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["de.codex.schematicbuilder.SchematicBuilderClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": { "litematica": "*", "malilib": "*", "baritone": "*" }
+}
